@@ -5,16 +5,14 @@
 VS Code の中心であるエディタには多彩な機能が満載されています。このページでは、その中のいくつかの機能に焦点を当て、多数の埋め込みエディタを使用して対話的に試してみることが可能です。VS Code のエディタ機能に関する更なる詳細については、[ドキュメント](command:workbench.action.openDocumentationUrl) を参照してください。
 
 * [マルチカーソル編集](#multi-cursor-editing) - ブロックの選択、すべての出現箇所の選択、付加的なカーソルの追加など
-* [インテリセンス](#intellisense) - あなたのコードと外部モジュールからコードのアシスタンスとパラメータの提案を得ることができます。
-* [行編集のアクション](#line-actions) - quickly move lines around to re-order your code.
-すばやく行を移動させコードを並べ替えることができます。
-* [名前変更によるリファクタリング](#rename-refactoring) - Quickly rename symbols across your code base.
-コードベース全体に素早くシンボルの名前を変更します。
-* [フォーマット](#formatting) - keep your code looking great with inbuilt document & selection formatting. 埋め込まれた文書と選択書式を使用してコードを見栄えよくしてください。
+* [インテリセンス](#intellisense) - あなたのコードと外部モジュールからコードのアシスタンスとパラメータの提案を得ることができます
+* [行編集のアクション](#line-actions) - すばやく行を移動させコードを並べ替えることができます
+* [名前変更によるリファクタリング](#rename-refactoring) - シンボルの名前変更を素早くコードベース全体に適用できます
+* [フォーマット](#formatting) - フォーマットによりドキュメントや選択された箇所におけるコードの可読性を高めることができます
 * [コードの折りたたみ](#code-folding) - 他の領域を折りたたむことで、コードの最も関連性の高い部分に焦点を当てることができます
 * [エラーと警告](#errors-and-warnings) - 入力時にエラーと警告が表示されます
 * [スニペット](#snippets) - スニペットで入力時間を短縮できます
-* [エメット](#emmet) - Emmet サポートの統合により、HTML と CSS の編集を次のレベルに引き上げます。
+* [エメット](#emmet) - Emmet サポートの統合により、HTML と CSS の編集を次のレベルに引き上げます
 
 ### マルチカーソル編集 (Multi-Cursor Editing)
 
@@ -36,11 +34,7 @@ VS Code の中心であるエディタには多彩な機能が満載されてい
 
 ### インテリセンス (IntelliSense)
 
-Visual Studio Code comes with powerful IntelliSense for JavaScript and TypeScript pre-installed. In the below example, position the text cursor in front of the error underline, right after the dot and press kb(editor.action.triggerSuggest) to invoke IntelliSense.  Notice how the suggestion comes from the Request API.
-
 Visual Studio Code には、JavaScript と TypeScript をサポートする強力な IntelliSense 機能があらかじめ組み込まれています。次の例では、エラーを示すアンダーライン(赤い波線)の前に配置される `.` (ドット)の直後にテキストのカーソルを置き、kb(editor.action.triggerSuggest) を押してインテリセンスを呼び出します。サジェスチョンが Request API からどのように提供されるかに注目してください。
-
-
 
 ```js
 var express = require('express');
@@ -106,11 +100,9 @@ console.log(`This is the manufacturer [${cars[i]}])`);
     }
 ```
 
->**Tip:** Additional formatters are available in the [extension gallery](command:workbench.extensions.action.showPopularExtensions).  Formatting support can also be configured via [settings](command:workbench.action.openGlobalSettings) e.g. enabling `editor.formatOnSave`.
-
+>**ヒント:** [拡張機能ギャラリー](command:workbench.extensions.action.showPopularExtensions)にて、追加のフォーマッターを入手することができます。フォーマットのサポートは、[設定](command:workbench.action.openGlobalSettings)などで構成することもできます。例えば、`editor.formatOnSave`を有効にするなど
 
 ### コードの折りたたみ (Code Folding)
-In a large file it can often be useful to collapse sections of code to increase readability.  To do this you can simply press kb(editor.fold) to `fold` the code - press kb(editor.unfold) to `unfold`.  Folding can also be done with the +/- icons in the left gutter.  To fold all sections kb(editor.foldAll) or to unfold all kb(editor.unfoldAll).
 
 大きなファイルでは、可読性を高めるためにコードの一部を折りたたむ機能が便利です。コードを折りたたむには kb(editor.fold) を押します。展開するには、kb(editor.unfold) を押すだけす。折りたたみは、左ガターにカーソルを合わせると出現する +/- アイコンでも行うことができます。すべてのセクションを折りたたむには kb(editor.foldAll) を、またはすべてのセクションを展開するには kb(editor.unfoldAll) を押してください。
 
