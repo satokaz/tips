@@ -163,9 +163,7 @@ Visual Studio Code のいくつかの編集機能を体験することができ�
 まだまだ、ここで試すことができる機能がたくさんあります：
 
 - kb(workbench.action.terminal.toggleTerminal) を押すことで統合ターミナルが開きます。[reviewing the terminal documentation](https://code.visualstudio.com/docs/editor/integrated-terminal) を確認してターミナルがどのような機能を提供するか確認できます
-
 - <span class="git-only">kb(workbench.view.git)</span><span class="scm-only">kb(workbench.view.scm)</span>を押してバージョンコントロールに取り組むことができます。[version control documentation](https://code.visualstudio.com/docs/editor/versioncontrol) を確認することで、ステージング、コミット、ブランチの変更、差分の表示などの方法を理解できます
-
 - 統合されたギャラリーで何千もの拡張機能をブラウズするには、kb(workbench.view.extensions) を押してみてください。[documentation](https://code.visualstudio.com/docs/editor/extension-gallery) では、最も一般的な拡張機能を表示する方法、インストールされている拡張機能を無効にする方法などを学ぶことができます
 
 OK that's all for now,
