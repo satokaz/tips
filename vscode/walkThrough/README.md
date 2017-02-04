@@ -2,7 +2,9 @@ Visual Studio Code 1.9 で実装された、Interactive Playground の内容を�
 Markdown ファイルなので、入れ替えなくても、Help: Interactive Playground コマンドを実行し、表示させながら試してみることも可能です。
 
 # ファイルを入れ替える場合
-`vs_code_editor_walkthrough.md` ファイルを、下記の配置場所にあるファイルと置き換えます。ファイル自体は、Markdown ファイルのため、Visual Studio Code の動作そのものには影響はないと思っていますが、何か不具合あったらごめんなさい。
+`vs_code_editor_walkthrough.md` ファイルを、下記の配置場所にあるファイルと置き換えます。ファイル自体は、Markdown ファイルのため、Visual Studio Code の再起動は必要ありません。入れ替えたら、Help: Interactive Playground コマンドを実行するだけです。
+
+Visual Studio Code の動作そのものには影響はないと思っていますが、何か不具合あったらごめんなさい。
 
 ## 配置場所
 * **macOS:** `/Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/out/vs/workbench/parts/welcome/walkThrough/electron-browser/editor`
